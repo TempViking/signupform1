@@ -1,0 +1,14 @@
+.signup-page {
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__container {
+        padding: 5rem 0;
+        text-align: center;
+        width: 25rem;
+    }
+    &__form {
+        margin-top: 2.66rem;
+    }
+}

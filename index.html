@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign up form</title>
+</head>
+<body>
+    <section class="signup-page">
+        <div class="signup-page__container">
+            <h1>Hello</h1>
+            <div class="signup signup-page__form">
+                <h3 class="signup__title">
+                    For business enquiries please use the form below
+                </h3>
+                <p class="signup__subtitle">
+                    *Required
+                </p>
+                <label class="form-label signup__label">
+                    <input class="form-label__input" type="text">
+                    <div class="form-label__title">
+                        Name
+                    </div>
+                </label>
+                <label class="form-label signup__label">
+                    <input class="form-label__input" type="text">
+                    <div class="form-label__title">
+                        Company
+                    </div>
+                </label>
+                <label class="form-label signup__label">
+                    <input class="form-label__input form-label__email" type="text">
+                    <div class="form-label__title">
+                        Email
+                    </div>
+                </label>
+                <label class="form-label signup__label">
+                    <input class="form-label__input form-label__phone" type="text">
+                    <div class="form-label__title">
+                        Phone
+                    </div>
+                </label>
+                <label class="form-label signup__label">
+                    <input class="form-label__input" type="text">
+                    <div class="form-label__title">
+                        Subject
+                    </div>
+                </label>
+                <label class="form-label signup__label">
+                    <textarea rows="2" class="form-label__input"></textarea>
+                    <div class="form-label__title">
+                        Message
+                    </div>
+                </label>
+                <div class="check-label signup__label">
+                    <input class="check-label__input" type="checkbox" id="terms-check">
+                    <label for="terms-check" class="check-label__label">
+                        <svg class="check-label__icon" width="1rem" height="1rem">
+                            <use xlink:href="#check_mark"></use>
+                        </svg>
+                    </label>
+                    <p class="check-label__conditions">
+                        I accept <a class="check-label__link" href="#">Terms and Privecy Policy</a>
+                    </p>
+                </div>
+                <a href="#" class="signup__button signup__offset-top" onclick="testForm(event)">Send</a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
